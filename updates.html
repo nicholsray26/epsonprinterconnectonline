@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brother Printer Support - Immediate Assistance</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/group1.png">
+  <style>
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+</style>
+
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #222;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+@media (max-width: 600px) {
+  .logo {
+    display: none !important;
+  }
+
+  .error-image {
+    padding-top: 0 !important;
+    margin-top: -30px !important; /* Moves image upwards */
+  }
+}
+
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-bottom: 20px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    .logo img {
+      height: 55px;
+    }
+    .error-box {
+      background: #fff;
+      border: 1px solid #e0e0e0;
+      border-radius: 12px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .error-text {
+      flex: 1 1 500px;
+    }
+    .error-text h2 {
+      font-size: 26px;
+      color: #c0392b;
+      margin-bottom: 20px;
+      font-weight: 700;
+    }
+    .error-text ul {
+      font-size: 16px;
+      line-height: 1.6;
+      padding-left: 20px;
+    }
+    .error-text strong {
+      font-weight: 600;
+      color: #2c3e50;
+    }
+    .buttons {
+      margin: 30px 0;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .button {
+      background-color: #007BFF;
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+      transition: background-color 0.3s;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    .warning {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .highlight {
+      color: #007BFF;
+      font-weight: 700;
+    }
+    .notice {
+      color: #e67e22;
+      font-weight: 600;
+      margin-top: 10px;
+    }
+    .error-image {
+      flex: 1 1 300px;
+      text-align: right;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-top: 60px;
+    }
+    .error-image img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="images/group2.png" alt="Printer Experts Pro Logo" />
+    </div>
+
+    <div class="error-box">
+      <div class="error-text">
+        <h2>Printer Setup Failed - Immediate Attention Required</h2>
+        <ul>
+          <li>Fatal error: Operation could not be completed. (Error 0X000290)</li>
+          <li>System could not locate a suitable printer driver.</li>
+          <li><strong>Call our certified technicians for instant printer setup assistance.</strong></li>
+        </ul>
+        <div class="buttons">
+          <a href="javascript:void(0);" onclick="openJivoChat();" class="button">Start Live Chat</a>
+          <a href="tel:+18555319822" class="button">Call Toll-Free: +1 855-531-9822</a>
+        </div>
+        <p class="warning highlight">✔ Certified Brother Experts fix your printer issues in minutes – Call now!</p>
+        <p class="notice">Note: Retrying installation may void your warranty. Contact our support first.</p>
+      </div>
+      <div class="error-image">
+        <img src="images/updates.png" alt="Printer Error">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    function openJivoChat() {
+      if (window.jivo_api) {
+        jivo_api.open();
+      }
+    }
+  </script>
+<script src="//code.jivosite.com/widget/jqSYhHYoaT" async></script>
+</body>
+</html>
